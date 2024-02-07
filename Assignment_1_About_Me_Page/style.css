@@ -1,0 +1,33 @@
+.container{
+    background-color: rgb(177, 213, 245);
+    border-style:dashed;
+    border-color: rgb(0, 128, 255);
+    background-image: url(sky-clouds-cinematic-clouds-wallpaper-4_1562-741.jpg.avif);
+    background-blend-mode:luminosity;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(124, 188, 244);
+}
+
+p, .listClass{
+    margin-inline-start: 5% ;
+    margin-inline-end: 5%;
+    font-size: large;
+    font-family: monospace;
+    color:black;
+    background-color: aliceblue;
+    opacity: 60%;
+}
+
+.highlightGIT{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    background-color: rgb(124, 188, 244);
+}
+
+.listClass{
+    font-style: italic;
+}
