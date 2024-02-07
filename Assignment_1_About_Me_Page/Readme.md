@@ -2,7 +2,7 @@
 
 PROVIDE OVERVIEW OF ASSIGNMENT HERE
 
-Time spent: **2** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## Features
 
@@ -33,6 +33,6 @@ The following **bonus** features are implemented:
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
 <ul>
-  <li>Images were sourced from https://www.freepik.com</li>
-  <li>*Example in italics*</li>
+  <li>Background Image was sourced from https://www.freepik.com</li>
+  <li>The specific source for the cat is unknown. Google search gives https://printler.com/en/poster/125232/ </li>
 </ul>

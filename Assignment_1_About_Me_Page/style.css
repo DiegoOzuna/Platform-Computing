@@ -3,7 +3,7 @@
     border-style:dashed;
     border-color: rgb(0, 128, 255);
     background-image: url(sky-clouds-cinematic-clouds-wallpaper-4_1562-741.jpg.avif);
-    background-blend-mode:luminosity;
+    background-blend-mode:soft-light;
 }
 
 h1{
@@ -30,4 +30,12 @@ p, .listClass{
 
 .listClass{
     font-style: italic;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
 }
