@@ -26,7 +26,9 @@ The following **bonus** features are implemented:
 
 
 ## Screenshot and/or Video Walkthrough
-![About Me](https://github.com/DiegoOzuna/Platform-Computing/assets/91403113/206e92f2-8c47-4135-bfff-97d2a67aa56b)
+<img src="./screenshots/WebsitePage.png" title='WebsiteTabName' width=''>
+<img src="./screenshots/AboutMeWebsite.jpg" title='WebsiteScreenshot' width='' />
+
 
 
 ## Notes:
