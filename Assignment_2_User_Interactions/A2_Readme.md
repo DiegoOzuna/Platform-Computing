@@ -12,23 +12,28 @@ The following **required** features are completed:
 - [x] Transfer your About Me Page into a React App with screenshot of output in the Images folder(3 pt)
 - [x] Set up Selenium (2 pt)
 - [x] Write your first Selenium script with screenshot of output in the Images folder (4 pt)
-- [ ] Monitor at least 2 metrics using Selenium with screenshot of output in the Images folder (4 pt)
+- [x] Monitor at least 2 metrics using Selenium with screenshot of output in the Images folder (4 pt)
 
 The following **bonus** features are implemented:
 
-- [ ] Saves metrics into csv file (1 pt)
-- [ ] Monitors at least 4 metrics (1 pt)
+- [x] Saves metrics into csv file (1 pt)
+- [x] Monitors at least 4 metrics (1 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 
-## Screenshot and/or Video Walkthrough
+## Screenshots
 
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
+This is a small preview of what the CSV file has... </br>
+<img src="./Images/csv result image.png" title='csv content' width='' alt='csv' />
+
+Showing output out of first tutorial of Selenium </br>
+<img src="./Images/selenium_tutorial_output.png" title='csv content' width='' alt='tutorial output' />
+
+Showing output out of metric_tracker </br>
+<img src="./Images/metric_tracker_output.png" title='csv content' width='' alt='tutorial output' />
+
+Showing Assignment 1 being translated to React... </br>
+<img src="./Images/AboutMeWebsite.jpg" title='csv content' width='' alt='website' />
 
 ## Notes:
 
-PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
-
-<ul>
-  <li>**Example in bold**</li>
-  <li>*Example in italics*</li>
-</ul>
+The scroll metric is not truly accurate. Since we track a button (which is at the bottom of the screen), the driver will scroll to the bottom automatically and keep there.
