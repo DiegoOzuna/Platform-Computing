@@ -18,4 +18,9 @@ submit_button.click()
 message = driver.find_element(by=By.ID, value="message")
 text = message.text
 
+print("this was the title " + title)
+print("this was text_box " + text_box.text)
+print("this was the button " + submit_button.text)
+print("This was message " + message.text)
+
 driver.quit()
