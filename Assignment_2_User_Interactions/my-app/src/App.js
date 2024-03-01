@@ -40,7 +40,7 @@ function App() {
         </div>
         <img src={cat} alt="cat" class="center"/>
         <input name="my-text" placeholder="hello"></input>
-        <button>Hello</button>
+        <button name="button">Hello</button>
 
 
     </div>
