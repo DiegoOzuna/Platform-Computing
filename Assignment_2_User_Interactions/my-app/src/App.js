@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div class = "container">
         <h1>About Me</h1>
-        <p>
+        <p id = "message">
             Hello everyone, 
             My name is Diego Ozuna, I am a senior here at CSUSB and will graduate in December 2024.
             I am majoring in Computer Science with a minor in Mathematics. Since transfering, I have been on the Dean's
@@ -39,6 +39,8 @@ function App() {
             </p>
         </div>
         <img src={cat} alt="cat" class="center"/>
+        <input name="my-text" placeholder="hello"></input>
+        <button>Hello</button>
 
 
     </div>
