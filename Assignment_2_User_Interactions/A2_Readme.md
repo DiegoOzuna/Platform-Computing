@@ -32,7 +32,7 @@ Showing output out of metric_tracker </br>
 <img src="./Images/metric_tracker_output.png" title='csv content' width='' alt='tutorial output' />
 
 Showing Assignment 1 being translated to React... </br>
-<img src="./Images/AboutMeWebsite.jpg" title='csv content' width='' alt='website' />
+<img src="./Images/AboutMeWebsite.png" title='csv content' width='' alt='website' />
 
 ## Notes:
 
