@@ -1,9 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import time
 
 driver = webdriver.Chrome()
 
-driver.get("http://localhost:3000/")
+driver.get("https://www.selenium.dev/selenium/web/web-form.html")
 
 title = driver.title
 
@@ -18,9 +19,9 @@ submit_button.click()
 message = driver.find_element(by=By.ID, value="message")
 text = message.text
 
-print("this was the title " + title)
-print("this was text_box " + text_box.text)
-print("this was the button " + submit_button.text)
-print("This was message " + message.text)
+start_time = time.time()
 
-driver.quit()
+while True:
+    current_time = time.time()
+    if(current_time - start_time > 30):
+        driver.quit()
