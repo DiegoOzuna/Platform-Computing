@@ -52,7 +52,7 @@ while True:
         "scroll_position": current_scroll,
         "button_clicks": num_clicks,
         "title_page": title,
-        f"paragraph_{paragraph_number}": paragraph.text
+        "paragraph": f"paragraph {paragraph_number} :"+paragraph.text
     })
 
 # Specify the name of the csv file
@@ -61,7 +61,7 @@ csv_file = "metrics.csv"
 # Open the file in write mode
 with open(csv_file, 'w', newline='') as csvfile:
     # Create a csv writer object
-    fieldnames = ["presence_time", "scroll_position", "button_clicks", "title_page", "paragraph_1", "paragraph_2", "paragraph_3"]
+    fieldnames = ["presence_time", "scroll_position", "button_clicks", "title_page", "paragraph"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     # Write the header to the csv file
