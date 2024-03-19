@@ -1,7 +1,11 @@
 import time
+import json
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import csv
+
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
 # Initialize browser
 driver = webdriver.Chrome()
@@ -55,22 +59,22 @@ while True:
         "paragraph": f"paragraph {paragraph_number} :"+paragraph.text
     })
 
-# Specify the name of the csv file
-csv_file = "metrics.csv"
 
-# Open the file in write mode
-with open(csv_file, 'w', newline='') as csvfile:
-    # Create a csv writer object
-    fieldnames = ["presence_time", "scroll_position", "button_clicks", "title_page", "paragraph"]
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#grab key from hidden json file...
+with open('key.json', 'r') as f:
+    password = json.load(f)
 
-    # Write the header to the csv file
-    writer.writeheader()
+#URI Password is hidden 
+uri = f"mongodb+srv://007157781:{password}@cluster0.hy4vdxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-    # Write the metrics to the csv file
-    for metric in metrics:
-        writer.writerow(metric)
+# Create a new client and connect to the server
+client = MongoClient(uri, server_api=ServerApi('1'))
 
-print("Metrics have been written to 'metrics.csv'")
+db = client['metrics']
+
+for metric in metrics:
+    for key, value in metric.items():
+        collection = db[key]  # Get the collection for this key
+        collection.insert_one({"value": value})  # Insert the value as a new document
         
 driver.quit()
