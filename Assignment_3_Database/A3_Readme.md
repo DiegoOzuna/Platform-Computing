@@ -5,25 +5,35 @@ Time spent: **NUMBER_HOURS_SPENT** hours spent in total
 ## Features
 The following **required** features are completed:
 - [x] Organize Github projects for Assignment 3 (2 pts)
-- [ ] Complete SQL Mystery Walkthrough and take a screenshot or print to PDF the
+- [x] Complete SQL Mystery Walkthrough and take a screenshot or print to PDF the
 webpage (2 pts)
-- [ ] Complete Interactive MongoDB Tutorial and take a screenshot or print to PDF
+- [x] Complete Interactive MongoDB Tutorial and take a screenshot or print to PDF
 the webpage (2 pts)
-- [ ] Choose a SQL or NoSQL Database and set up a server (4 pts)
-- [ ] Modify your metric_tracker file so that the metrics are saved onto a database
+- [x] Choose a SQL or NoSQL Database and set up a server (4 pts)
+- [x] Modify your metric_tracker file so that the metrics are saved onto a database
 (5 pts)
 The following **bonus** features are implemented:
 - [ ] Retrieve values from the database (1 pt).
 - [ ] Create separate Tables (SQL) or Documents (NoSQL) for each metric and relate
 them via user (2 pt).
-- [ ] DESCRIBE ANY OTHER FEATURES HERE.
+- [x] Completed the challenge in SQL mastery
+
+
 ## Screenshot and/or Video Walkthrough
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough'
-width='' alt='Example Video Walkthrough' />
+This was the mongoDB when first initialized... </br>
+<img src="./Images/MongoDB Database.png" title='database no content' width='' alt='mongo empty' />
+
+This was the mongoDB after it was filled with metrics </br>
+<img src="./Images/MongoDB-Metrics.png" title='database content' width='' alt='mongo fill' />
+
+This shows I did mongo tutorial </br>
+<img src="./Images/mongoDB Tutorial Completed.png" title='mongo tutorial content' width='' alt='mongo tutorial output' />
+
+This shows I did the tutorial for SQL... </br>
+<img src="./Images/SQL Tutorial Complete.png" title='SQL content' width='' alt='SQL Tutorial Complete' />
+
+This shows I did the challenge in SQL tutorial...
+<img src="./Images/SQL Tutorial Hidden Complete.png" title='SQL content2' width='' alt='SQL Tutorial Complete2' />
+
 ## Notes:
-PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to
-add emphasis in text
-<ul>
-<li>**Example in bold**</li>
-<li>*Example in italics*</li>
-</ul>
+No notes this time around.
