@@ -14,7 +14,7 @@ the webpage (2 pts)
 (5 pts)
 The following **bonus** features are implemented:
 - [x] Retrieve values from the database (1 pt).
-- [ ] Create separate Tables (SQL) or Documents (NoSQL) for each metric and relate
+- [x] Create separate Tables (SQL) or Documents (NoSQL) for each metric and relate
 them via user (2 pt).
 - [x] Completed the challenge in SQL mastery
 
