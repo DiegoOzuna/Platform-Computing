@@ -30,10 +30,10 @@ This shows how user_id is connected to entries...</br>
 <img src="./Images/id_difference.png" title='database content2' width='' alt='mongo fill2' />
 
 This shows I did mongo tutorial </br>
-<img src="./Images/mongoDB Tutorial Completed.png" title='mongo tutorial content' width='' alt='mongo tutorial output' />
+<img src="./Images/MongoDB Tutorial Completed.png" title='mongo tutorial content' width='' alt='mongo tutorial output' />
 
 This shows I did the tutorial for SQL... </br>
-<img src="./Images/SQL Tutorial Completed.png" title='SQL content' width='' alt='SQL Tutorial Complete' />
+<img src="./Images/SQL Tutorial Complete.png" title='SQL content' width='' alt='SQL Tutorial Complete' />
 
 This shows I did the challenge in SQL tutorial...</br>
 <img src="./Images/SQL Tutorial Hidden Complete.png" title='SQL content2' width='' alt='SQL Tutorial Complete2' />
