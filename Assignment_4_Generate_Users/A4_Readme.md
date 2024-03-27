@@ -3,10 +3,10 @@ PROVIDE OVERVIEW OF ASSIGNMENT HERE
 Time spent: **NUMBER_HOURS_SPENT** hours spent in total
 ## Features
 The following **required** features are completed:
-- [ ] Organize Github folders (2 pts)
-- [ ] Create a user with affinity towards keyword(s) and verify that it works (3
+- [x] Organize Github folders (2 pts)
+- [x] Create a user with affinity towards keyword(s) and verify that it works (3
 pts)
-- [ ] Create a user with affinity towards image(s) and verify that it works (3 pts)
+- [x] Create a user with affinity towards image(s) and verify that it works (3 pts)
 - [ ] Create a user with affinity towards links and verify that it works (3 pts)
 - [ ] Describe a user with unique affinities (1 pt)
 - [ ] Create a user with unique affinities and verify that it works (3 pts)
@@ -16,8 +16,13 @@ The following **bonus** features are implemented:
 - [ ] Uploaded files for a unique user BOTH in javascript and python (1.5 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 ## Screenshot and/or Video Walkthrough
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough'
-width='' alt='Example Video Walkthrough' />
+
+Here is the output from Keyword_User.py
+<img src="./Images/keyword_user_output.png" title='keyword output' width='' alt='keywords' />
+
+Here is the output from Image_User.py
+<img src="./Images/image_user_output.png" title='image output' width='' alt='images' />
+
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to
 add emphasis in text
