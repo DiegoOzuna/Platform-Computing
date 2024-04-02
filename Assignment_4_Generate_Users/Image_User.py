@@ -2,13 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-def findImages(driver, ImageTag)->int:
-    count = 0
-    images = driver.find_elements(By.TAG_NAME, ImageTag)
-    
-    for image in images:
-        count += 1
-    return count
+def countElem(driver, tag_name)->int:
+    #get count of this element (in this case, images)
+    return len(driver.find_elements(By.TAG_NAME, tag_name))
 
 def main():
     #initialize browser
@@ -18,18 +14,16 @@ def main():
     driver.get("http://localhost:3000")
     reward_time = 10
     total_reward_time = 0
-    ImageTag = "img"
+    tags = ["img"] #we will keep it as a list in case we want to check for more tags
 
-    images_found = findImages(driver, ImageTag)
-    print(images_found)
-
-    if images_found > 0:
-        total_reward_time += reward_time * images_found
+    for tag in tags:
+        num_elem = countElem(driver, tag)
+        total_reward_time += reward_time * num_elem
         time.sleep(reward_time)
     
     driver.quit()
     print("Presence Time:", total_reward_time)
-    print("Image count was: ", images_found)
+    print("Image count was: ", num_elem)
 
 if __name__ == "__main__":
     main()
