@@ -7,7 +7,7 @@ The following **required** features are completed:
 - [x] Create a user with affinity towards keyword(s) and verify that it works (3
 pts)
 - [x] Create a user with affinity towards image(s) and verify that it works (3 pts)
-- [ ] Create a user with affinity towards links and verify that it works (3 pts)
+- [x] Create a user with affinity towards links and verify that it works (3 pts)
 - [ ] Describe a user with unique affinities (1 pt)
 - [ ] Create a user with unique affinities and verify that it works (3 pts)
 The following **bonus** features are implemented:
@@ -22,6 +22,13 @@ Here is the output from Keyword_User.py
 
 Here is the output from Image_User.py
 <img src="./Images/image_user_output.png" title='image output' width='' alt='images' />
+
+Here is the output from Link_User.py
+<img src="./Images/link_user_output.png" title='link output' width='' alt='link' />
+
+
+Here is the link user opening links... <br>
+![link_user_action-ezgif.com-optimize.gif](./Images/link_user_action-ezgif.com-optimize.gif)
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to
