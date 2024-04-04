@@ -13,7 +13,7 @@ pts)
 The following **bonus** features are implemented:
 - [ ] Create a unique user with an affinity OUTSIDE of keywords, images, or links
 (1.5 pt)
-- [ ] Uploaded files for a unique user BOTH in javascript and python (1.5 pt)
+- [x] Uploaded files for a unique user BOTH in javascript and python (1.5 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 - [x] Unique_User is completely random to have variability. Can be used to generate more samples if needed.
 ## Screenshot and/or Video Walkthrough
@@ -35,6 +35,8 @@ Here is the output from the Unique_User.py
 <img src="./Images/unique_user_output.png" title='unique output' width='' alt='unique' />
 
 ## Notes:
+
+py version of Unique_User has been verified to work. js version might require some altering
 
 <ul>
 <li>Unique user has KEYWORD,LINK, and IMAGE user interactions.</li>
