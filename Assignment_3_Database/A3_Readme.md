@@ -1,6 +1,6 @@
 # Metric Tracker with Database
 PROVIDE OVERVIEW OF ASSIGNMENT HERE
-Time spent: **NUMBER_HOURS_SPENT** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## Features
 The following **required** features are completed:
